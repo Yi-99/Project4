@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="Project4/frontend/build">
         <Navbar />
         <div className="pages">
           <Routes>
